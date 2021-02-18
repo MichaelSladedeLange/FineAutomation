@@ -1,0 +1,157 @@
+/* 303841 */
+html{
+  height: 100%;
+  width:100%;
+  overflow-y:hidden;
+}
+body{
+  height: 100%;
+  width:100%;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.welcome{
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  background-color: #303841;
+  justify-content: space-around;
+  align-items: center;
+  overflow:hidden;
+
+}
+
+.eye{
+  position: relative;
+  width:200px;
+  height: 200px;
+  background-color: #faf3e0;
+  transform: rotate(45deg);
+  border-radius: 150px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: kill 18.5s linear forwards;
+}
+@keyframes kill {
+  0%{transform: translate(0)rotate(45deg);}
+  99.9%{transform: translate(0)rotate(45deg);opacity: 1;}
+100%{opacity: 0;}
+}
+.eyeball{
+  position: absolute;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  background-color: #303841;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: eyemove 20s ease-out 2s forwards;
+}
+@keyframes eyemove {
+  0%{transform: translate(0);}
+  5%{transform: translate(0);}
+  7%{transform: translate(0,50px);}
+  12%{transform: translate(10px,50px);}
+  15%{transform: translate(20px,45px);}
+  17%{transform: translate(10px,50px);}
+  20%{transform: translate(30px,30px);}
+  25%{transform: translate(50px,10px);}
+  29%{transform: translate(40px,25px);}
+  35%{transform: translate(50px,10px);}
+  45%{transform: translate(0);}
+  50%{transform: translate(0);}
+  54%{transform: translate(250px,250px); opacity: 1;}
+  55%{transform: translate(250px,250px);opacity: 0;}
+  56%{transform: translate(-250px,-250px);opacity: 0;}
+  57%{transform: translate(-250px,-250px);opacity: 1;}
+  60%{transform: translate(-250px,-250px);opacity: 1;}
+  60.5%{transform: translate(0);}
+  80%{transform: translate(0);}
+  82%{transform: scale(20);}
+  100%{transform: scale(20);}
+}
+.eyelid{
+  width:300px;
+  height: 200px;
+  position: absolute;
+  transform: rotate(-45deg);
+  background-color: #303841;
+  animation: eyelid 13s ease-in-out 1s infinite alternate;
+}
+
+@keyframes eyelid {
+  0%{transform: translate(0) rotate(-45deg);}
+  2%{transform: translate(-150px,-150px)rotate(-45deg);}
+  4%{transform: translate(0)rotate(-45deg);}
+  6%{transform: translate(-150px,-150px)rotate(-45deg);}
+  20%{transform: translate(-150px,-150px) rotate(-45deg);}
+  22%{transform: translate(0) rotate(-45deg);}
+  24%{transform: translate(-150px,-150px) rotate(-45deg);}
+  35%{transform: translate(-150px,-150px) rotate(-45deg);}
+  37%{transform: translate(0) rotate(-45deg);}
+  39%{transform: translate(-150px,-150px) rotate(-45deg);}
+  60%{transform: translate(-150px,-150px) rotate(-45deg);}
+  62%{transform: translate(0) rotate(-45deg);}
+  64%{transform: translate(-150px,-150px) rotate(-45deg);}
+  88%{transform: translate(-150px,-150px) rotate(-45deg);}
+  90%{transform: translate(0) rotate(-45deg);}
+  92%{transform: translate(-150px,-150px) rotate(-45deg);}
+  98%{transform: translate(-150px,-150px) rotate(-45deg);}
+  100%{transform: translate(0) rotate(-45deg);}
+}
+.Name{
+  position: relative;
+  width: 270px;
+  height:300px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.myname{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+.b{
+  position: absolute;
+  height: 40px;
+  width:270px;
+  background-color: white;
+}
+.b1{
+  transform: translate(0,20px);
+  animation: b1 2s ease-in-out 2s forwards
+}
+.b2{
+  transform: translate(0,70px);
+  animation: b2 2s ease-in-out 3s forwards
+}
+.b3{
+  transform: translate(0,130px);
+  animation: b3 2s ease-in-out 4s forwards
+}
+.b4{
+  transform: translate(0,180px);
+  animation: b4 2s ease-in-out 5s forwards
+}
+@keyframes b1 {
+  from{transform: translate(0,20px);}
+  to{transform: translate(100px, 20px);}
+}
+@keyframes b2 {
+  from{transform: translate(0,70px);}
+  to{transform: translate(-270px,70px);}
+}
+@keyframes b3 {
+  from{transform: translate(0,130px);}
+  to{transform: translate(-100px, 130px);}
+}
+@keyframes b4 {
+  from{transform: translate(0,180px);}
+  to{transform: translate(290px,180px);}
+}
