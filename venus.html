@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -22,9 +25,9 @@
   <body>
 
     <div class="NavBarSection nene"  >
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <a class="navbar-brand" href="#HeaderSectionMain">
-        <img src="images/Logo_Main_White.svg" width="150" height="40" class="d-inline-block align-top" style="margin-left:20px;">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+        <img src="images/Logo_Main_White.svg" width="150" height="40" class="d-inline-block align-top">
 
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavONE" aria-controls="NavONE" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +36,20 @@
       <div class="collapse navbar-collapse" id="NavONE">
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="####" style="color: white; font-weight: bold;">Products</a>
-          <a class="nav-item nav-link" href="####">Why Us</a>
-          <a class="nav-item nav-link" href="####">REQUEST QUOTE</a>
+
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" style="color: white; font-weight: bold;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Products
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+             <a class="dropdown-item" href="#">Venus Wireless Alarm</a>
+             <a class="dropdown-item" href="#">Neptune Communciator</a>
+             <a class="dropdown-item" href="#">Mercury Communciator</a>
+           </div>
+         </li>
+
+          <a class="nav-item nav-link" href="####">About</a>
+          <a class="nav-item nav-link" href="####">BUY NOW</a>
 
         </div>
       </div>
@@ -87,7 +101,7 @@
 
 
 
-        <svg class="loader_svg SVG" width="500" height="250" viewBox="0 0 1108 521" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <svg class="loader_svg SVG" viewBox="0 0 1108 521" fill="white" xmlns="http://www.w3.org/2000/svg">
         <mask id="path-1-outside-1_115_5" maskUnits="userSpaceOnUse" x="0.671997" y="0.279999" width="1107" height="521" fill="black">
         <rect fill="white" x="0.671997" y="0.279999" width="1107" height="521"/>
         <path d="M89.848 9.656L87.288 23.736H63.608L50.296 99H32.248L45.56 23.736H21.752L24.312 9.656H89.848Z"/>
@@ -152,36 +166,38 @@
 
 
 
+<!-- Simple. Robust. Affordable.  -->
 
 
-
-        <p class="medium fadein" style="padding-top:30px;" >Simple. Robust. Affordable. </p>
-        <div class="button_request fadein" style="margin-top: 30px;"> GET NOW </div>
+        <p class="large fontchange fadein" style="padding-top:30px;" >We Sell Saftey </p>
+        <div class="button_request fadein fontchange" style="margin-top: 30px;"> GET NOW </div>
       </div>
       <div class="flex_item">
-        <img class="image_top" src="images/mainone.png" alt="">
+        <img class="image_top" src="images/mainonelowres.png" alt="">
       </div>
 
 
       </div>
 
-
+        <div class="spacer"></div>
 
         <div class="flex_box_icon" style="  min-height:400px; padding: 50px 0 50px 0;">
           <div class="flex_icon">
-            <p class="large center black">Reliable</p>
-            <p class="medium center black">The Venus is built to last. Tried and tested for over 20 years, the Venus is incredible reliable and easy to use.</p>
+            <p class="large center fontchange">Reliable</p>
+            <p class="medium center ">The Venus is built to last. Tried and tested for over 20 years, the Venus is incredible reliable and easy to use.</p>
           </div>
           <div class="flex_icon">
-            <p class="large center black">Afforable</p>
-            <p class="medium center black">The Venus is designed to provide you with everything you need in the most simple and convenient package, while keeping costs as low as possible. </p>
+            <p class="large center fontchange">Afforable</p>
+            <p class="medium center ">The Venus is designed to provide you with everything you need in the most simple and convenient package, while keeping costs as low as possible. </p>
           </div>
           <div class="flex_icon">
-            <p class="large center black">South African</p>
-            <p class="medium center black">We are proudly South African, and our products are built South African tough. To perform in the most diffcult situations.</p>
+            <p class="large center fontchange">South African</p>
+            <p class="medium center ">We are proudly South African, and our products are built South African tough. To perform in the most diffcult situations.</p>
           </div>
 
         </div>
+
+        <div class="spacer"></div>
 
 
       <div class="flex_box">
@@ -194,7 +210,7 @@
 
         </div>
         <div class="flex_item">
-            <p class="large fontchange">CORE</p>
+            <p class="large fontchange">The Core</p>
             <p class="medium"> <ul>
               <li class="medium"> 6 wireless zones </li>
               <li class="medium"> Up to 12 detectors can be added  </li>
@@ -219,7 +235,7 @@
 <hr>
 
       <div class="flex_box">
-
+<img class="watermark_right" src="images/middle_1.png" alt="">
         <div class="flex_item">
             <p class="large fontchange">PASSIVE</p>
             <p class="medium"> <ul>
@@ -233,6 +249,7 @@
               <li class="medium"> 10uA idle current and 18mA transmit current </li>
             </ul>  </p>
         </div>
+
         <div class="flex_item">
           <img class="image_core " src="images/PIR_Board_Transparent_edit.png" alt="">
           <img class="image_core fadeimage" src="images/PIR_Box_Transparent_edit.png" alt="">
@@ -245,12 +262,13 @@
 
 
       <div class="flex_box">
+                <img class="watermark_middle" src="images/middle_1.png" alt="">
         <div class="flex_item">
           <img class="image_core " src="images/GoorGuard_Low_Board_Transparent.png" alt="">
 
         </div>
         <div class="flex_item">
-            <p class="large">DOOR GUARD</p>
+            <p class="large fontchange">DOOR GUARD</p>
             <p class="medium"> <ul>
               <li class="medium"> Battery life of 2+ years </li>
               <li class="medium"> Battery saving features</li>
