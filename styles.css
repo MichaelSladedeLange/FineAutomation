@@ -26,6 +26,8 @@ hr {
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  TEXT HEADINGS AND FONTS AND BUTTONS ||\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
+
+
 .TITLE {
   color: white;
   font-weight: bold;
@@ -232,8 +234,8 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
  animation: comm 1.8s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(2){
- stroke-dasharray: 1000px;
- stroke-dashoffset: 1000px;
+ stroke-dasharray: 1500px;
+ stroke-dashoffset: 1500px;
  animation: comm 1.8s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(3){
@@ -242,13 +244,13 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
  animation: comm 1.8s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(4){
- stroke-dasharray: 1000px;
- stroke-dashoffset: 1000px;
+ stroke-dasharray: 1600px;
+ stroke-dashoffset: 1600px;
  animation: comm 1.8s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(5){
- stroke-dasharray: 1000px;
- stroke-dashoffset: 1000px;
+ stroke-dasharray: 1500px;
+ stroke-dashoffset: 1500px;
  animation: comm 1.8s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(6){
@@ -412,6 +414,10 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\     SVG   v\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .SVG{
  width: 500px;
+}
+
+.SVG_smaller{
+   width: 400px;
 }
 
 
