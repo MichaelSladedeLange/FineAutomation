@@ -173,7 +173,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
   top:60px;
   right:-5vw;
   opacity: 0;
-  animation: fadeinback 4s ease-out 2.5s forwards;
+  animation: fadeinback 3s ease-out 1s forwards;
 }
 
 @keyframes fadeinback {
@@ -201,10 +201,31 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 
 .iconabove{
   position: relative;
+  margin: 0 auto 0 auto;
   width:150px;
-  right: 0px;
 }
 
+
+.left_mark{
+  position: absolute;
+  height: 1500px;
+  opacity: 0.6;
+  left:-300px;
+}
+
+.right_mark{
+  position: absolute;
+  height: 1500px;
+  opacity: 0.6;
+  right:-300px;
+}
+
+.image_medium{
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 40px 0 40px 0;
+  width: 50%;
+}
 
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\LOADER\\\\\\\\\\\\\\\\\ */
@@ -231,152 +252,152 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 .loader_svg path:nth-child(1){
  stroke-dasharray: 3000px;
  stroke-dashoffset: 3000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(2){
  stroke-dasharray: 1500px;
  stroke-dashoffset: 1500px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(3){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(4){
  stroke-dasharray: 1600px;
  stroke-dashoffset: 1600px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(5){
  stroke-dasharray: 1500px;
  stroke-dashoffset: 1500px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(6){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(7){
  stroke-dasharray: 1200px;
  stroke-dashoffset: 1200px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(8){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(9){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(10){
  stroke-dasharray: 1500px;
  stroke-dashoffset: 1500px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(11){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(12){
- stroke-dasharray: 1000px;
- stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ stroke-dasharray: 1600px;
+ stroke-dashoffset: 1600px;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(13){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(14){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(15){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(16){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(17){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(18){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(19){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(20){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(21){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(22){
  stroke-dasharray: 1500px;
  stroke-dashoffset: 1500px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(23){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(24){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(25){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(26){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(27){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(28){
  stroke-dasharray: 1500px;
  stroke-dashoffset: 1500px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(29){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(30){
  stroke-dasharray: 1000px;
  stroke-dashoffset: 1000px;
- animation: comm 1.8s ease-in-out 0.2s forwards;
+ animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 
 .SVG_ani{
@@ -385,7 +406,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 
 
 @keyframes comm {
-  to{stroke-dashoffset:500;}
+  to{stroke-dashoffset:0px;}
 }
 
 
@@ -413,11 +434,17 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\     SVG   v\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .SVG{
- width: 500px;
+ width: 400px;
 }
 
 .SVG_smaller{
-   width: 400px;
+   width: 350px;
+}
+
+.box{
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
 }
 
 
@@ -466,16 +493,22 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
   /* border: 3px solid #73AD21; */
 }
 
+
 .flex_item{
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   width:40vw;
   min-width: 500px;
   min-height: 500px;
   /* border: 3px solid #73AD21; */
 }
+
+.wider{
+  width: 80vw;
+}
+
 .together{
   justify-content: center;
   min-width: inherit;
