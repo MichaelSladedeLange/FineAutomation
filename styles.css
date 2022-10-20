@@ -202,7 +202,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 .iconabove{
   position: relative;
   margin: 0 auto 0 auto;
-  width:150px;
+  height:100px;
 }
 
 
@@ -242,7 +242,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  animation: loaderfade 0.5s ease-in 1.5s forwards;
+  animation: loaderfade 0.5s ease-in 2.2s forwards;
 }
 @keyframes loaderfade {
   from{opacity: 1;}
@@ -250,8 +250,8 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 }
 
 .loader_svg path:nth-child(1){
- stroke-dasharray: 3000px;
- stroke-dashoffset: 3000px;
+ stroke-dasharray: 2600px;
+ stroke-dashoffset: 2600px;
  animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(2){
@@ -325,8 +325,8 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
  animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(16){
- stroke-dasharray: 1000px;
- stroke-dashoffset: 1000px;
+ stroke-dasharray: 3700px;
+ stroke-dashoffset: 3700px;
  animation: comm 2.5s ease-in-out 0.2s forwards;
 }
 .loader_svg path:nth-child(17){
@@ -434,7 +434,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\     SVG   v\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .SVG{
- width: 400px;
+ width: 550px;
 }
 
 .SVG_smaller{
@@ -644,33 +644,74 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
     animation: move_wave 15s linear infinite;
 }
 
-
+.padding-bottom{
+  padding-bottom:100px;
+}
 
 /* ////////////////////   MOBILE //////////////////////// */
 
 @media (max-width: 800px){
 
+.padding-bottom{
+  padding-top:40px;
+}
 
   .image_top{
-    min-width: 95vw;
+    min-width: 700px;
+  }
+
+  .flex_icon{
+    padding-bottom: 100px;
+  }
+
+  .left_mark{
+    position: absolute;
+    height: 1400px;
+    opacity: 0.1;
+    left:-300px;
+  }
+  .right_mark{
+    position: absolute;
+    height: 1400px;
+    opacity: 0.1;
+    right:-300px;
   }
 
 
   .SVG{
-    max-width:95vw;
+    max-width:75vw;
+    margin: 0 auto 0 auto;
   }
 
   .flex_item{
-    min-width: 95vw;
+    min-width: 85vw;
     min-height: 300px;
   }
 
   .watermark{
-    min-width: 500px;
-    right:-5vw;
+  width:1000px;
   }
 
+.large{
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+
+.medium{
+  text-align: center;
+  padding-bottom:100px;
+}
+
+
+
+.button_request{
+  margin: 0 auto 0 auto;
+}
+
+.spacer{
+ height:50px;
+}
 
 
 
