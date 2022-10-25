@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 width: 100vw;
 background-color: #161616;
+  /* background-color: white; */
 overflow-x: hidden;
 
 
@@ -12,7 +13,7 @@ body{
   margin: 0;
   padding: 0;
   width:100vw;
-  background-color: #161616;
+background-color: #161616;
   background-image: url("images/#.png");
   overflow-x: hidden;
 
@@ -45,7 +46,7 @@ hr {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .large{
@@ -54,7 +55,15 @@ hr {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.mediumblack{
+  color: black;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 
@@ -65,7 +74,7 @@ hr {
 
 .fontchange{
   /* font-family: 'Play', sans-serif; */
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Kanit', sans-serif;
 }
 .extra{
@@ -84,7 +93,7 @@ hr {
 .button_request{
   color: black;
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   border-radius: 50px;
   width: 250px;
@@ -158,6 +167,16 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
   to{ opacity: 0.2;}
 }
 
+.waterright{
+  position: absolute;
+  max-height: 90%;
+  right:0;
+}
+.waterleft{
+  position: absolute;
+  max-height: 90%;
+  left:0px;
+}
 
 .background_section{
   position: absolute;
@@ -171,14 +190,15 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
   position: absolute;
   width: 70vw;
   top:60px;
-  right:-5vw;
+  right:-15vw;
+  transform: rotate(-90deg);
   opacity: 0;
   animation: fadeinback 3s ease-out 1s forwards;
 }
 
 @keyframes fadeinback {
   from{opacity: 0;}
-  to{opacity: 0.6;}
+  to{opacity: 0.1;}
 }
 
 .watermark_middle{
@@ -434,7 +454,7 @@ animation: fadeinscaleload 2s ease-in-out 1s forwards;
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\     SVG   v\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .SVG{
- width: 550px;
+ width: 300px;
 }
 
 .SVG_smaller{
