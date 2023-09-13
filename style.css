@@ -493,6 +493,14 @@ td{
     border-left: 1px solid white;
 }
 
+.pContainer{
+  width:75vw;
+}
+
+.img-fluid2{
+  width: 275px;
+}
+
 /* Responsiveness */
 @media (max-width: 491px) {
     .gate{
@@ -509,6 +517,20 @@ td{
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    .img-fluid1{
+      min-width: 95vw;
+    }
+
+    .pContainer{
+      width:100vw;
+    }
+
+    .img-fluid2{
+      width: 175px;
+    }
+
+
     .main-content{
         max-width: 100%;
     }
