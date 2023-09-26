@@ -414,6 +414,12 @@ h2,h3,h4{
     z-index: 999;
 }
 
+
+.YouTubeVid{
+  width: 560px;
+  height: 315px;
+}
+
 /* Addons Section */
 .addons-section{
     padding-bottom: 60px;
@@ -523,6 +529,11 @@ td{
     html{
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .YouTubeVid{
+      width: 350px;
+      height: 200px;
     }
 
     .img-fluid1{
@@ -733,6 +744,8 @@ td{
         font-size: 14px;
     }
 
+
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
     html{
@@ -745,6 +758,7 @@ td{
     .main-content{
         max-width: 100%;
     }
+
     .s-list{
         display: flex;
         justify-content: center;
