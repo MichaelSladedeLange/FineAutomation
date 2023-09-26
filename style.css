@@ -502,6 +502,12 @@ td{
   width: 250px;
 }
 
+.mobile{
+    width:0px;
+    height: 0px;
+    opacity: 0;
+}
+
 /* Responsiveness */
 @media (max-width: 491px) {
     .gate{
@@ -523,6 +529,17 @@ td{
       min-width: 95vw;
     }
 
+.desktop{
+  width:0px;
+  height: 0px;
+  opacity: 0;
+}
+
+.mobile{
+  height: auto;
+  width:95vw;
+    opacity: 1;
+}
     .pContainer{
       width:100vw;
     }
@@ -721,6 +738,9 @@ td{
     html{
         max-width: 100%;
         overflow-x: hidden;
+    }
+    h1{
+      font-size: 100px;
     }
     .main-content{
         max-width: 100%;
