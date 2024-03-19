@@ -19,6 +19,10 @@ ul{
   list-style-position: outside;
 }
 
+:root{
+  --header-height: 66px;
+}
+
 .author{
   text-decoration:none;
   color: #9e9e9e;
@@ -41,6 +45,11 @@ ul{
   width: 100%;
   align-items: center;
 } */
+
+.topimgheightcontrol{
+  max-height: 1000px;
+  height: calc(100vh - var(--header-height));
+}
 
 .img100w{
   width:100%;
@@ -68,9 +77,17 @@ ul{
   line-height: 25px;
 }
 
-.myowncontainer2side{
-
+.topholder{
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+min-width: 100vw;
 }
+
+
+
+
 
 .float{
 	position:fixed;
@@ -632,7 +649,10 @@ td{
       min-width: 95vw;
     }
 
-
+.topimgheightcontrol{
+  width: 100vw;
+  height: auto;
+}
 
 .desktop{
   width:0px;
