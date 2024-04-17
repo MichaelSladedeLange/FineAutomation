@@ -116,13 +116,13 @@ min-width: 100vw;
 
 }
 .notificationAnimation1{
-  animation: NotificationExample 7s ease-in-out 3s forwards;
+  animation: NotificationExample 7s ease-in-out 10s forwards;
 }
 .notificationAnimation2{
-  animation: NotificationExample 7s ease-in-out 25s forwards;
+  animation: NotificationExample 7s ease-in-out 45s forwards;
 }
 .notificationAnimation3{
-  animation: NotificationExample 7s ease-in-out 50s forwards;
+  animation: NotificationExample 7s ease-in-out 80s forwards;
 }
 
 
