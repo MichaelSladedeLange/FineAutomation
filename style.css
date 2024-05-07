@@ -23,6 +23,8 @@ ul{
   --header-height: 66px;
 }
 
+#more {display: none;}
+
 .author{
   text-decoration:none;
   color: #9e9e9e;
